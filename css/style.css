@@ -1,0 +1,416 @@
+
+@font-face{
+    src: url('../fonts/Montserrat-Bold.otf');
+    font-family:'Montserrat-Bold' ;
+}
+@font-face{
+    src: url('../fonts/Montserrat-Regular.otf');
+    font-family:'Montserrat-Regular' ;
+}
+@font-face{
+    src: url('../fonts/GOODDC__.TTF');
+    font-family:'good-dog' ;
+}
+*{
+    margin: 0;
+    padding: 0 auto;
+    font-family:'Montserrat-Regular' ;
+}
+body{
+    background: #212121 !important;
+    position: relative;
+    
+}
+h1,h2,h3,h4,h5{
+    color: #afc67b;
+}
+p{
+    color: #fff;
+}
+.good-dog{
+    font-family:'good-dog';
+}
+body:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../images/bg-body.png);
+    background-size: 100%;
+    background-position-y: 54rem;
+    top: 0;
+    right: 0;
+    opacity: 0.02;
+}
+section{
+    background: transparent;
+}
+.navbar .navbar-collapse{
+    justify-content: flex-end!important;
+    flex-grow: inherit;
+    margin-left: 50px;
+}
+.navbar.navbar-expand-lg{
+   background: transparent;
+   position: absolute;
+    width: 100%;
+    padding: 40px 110px;
+    z-index: 10;
+}
+.navbar.navbar-expand-lg a{
+    text-transform: uppercase;
+    color: #afc67b;
+    font-family:'Montserrat-Regular';
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.navbar.navbar-expand-lg ul>li>a{
+    color: #afc67b !important;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.navbar.navbar-expand-lg ul>li{
+    padding: 0 1rem;
+}
+/*  */
+.home-banner .text-box
+{
+    position: absolute;
+    top: 15%;
+    right: 15%;
+}
+.home-banner .text-box h1 {
+    font-size: 3rem;
+    color: #afc67b;
+    margin-top: 8rem;
+    line-height: 3rem;
+}
+.home-banner .text-box strong{
+    display: block;
+    font-size: 4rem;
+    color: #afc67b;
+    line-height: 3rem;
+    font-family: 'Montserrat-Bold';
+    text-align: center;
+}
+.btn.learn-more{
+    font-size: 3rem;
+    border: none;
+    background: rgba(175, 198, 123, 0.5);
+    line-height: 2rem;
+    padding: 20px 20px;
+    margin-top: 10rem;
+    color: #afc67b;
+}
+.btn.learn-more:hover{
+    border:transparent;
+    background: #afc67b;
+}
+/*  */
+.introduce{
+    background: url('../images/bg-section-1.png') right center no-repeat;
+    padding: 9rem 5rem;
+}
+.bg-green{
+    background: rgba(175, 198, 123, 0.2);
+}
+.introduce-2{
+    padding: 5.5rem 0;
+}
+.introduce-2 h2{
+    color: #fff;
+    margin: 1rem 0;
+}
+.tradition{
+    padding: 5rem 0;
+}
+.tradition .tradition-block {
+    background: rgba(175, 198, 123, 0.2);
+}
+.tradition .tradition-block .col-md-6{
+    padding:0 !important
+}
+.tradition .tradition-block h2{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.tradition .tradition-block .col-md-12{
+    padding: 2.5rem 0;
+}
+.tradition .tradition-block .col-md-12 
+{
+    margin-bottom: 0;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.tradition .tradition-item .box-image,
+.tradition .tradition-item .box-text{
+    flex: 0 0 50%;
+}
+.tradition .tradition-item .box-image img{
+    width: 100%;
+}
+.tradition .tradition-item .box-text{
+    box-sizing: border-box;
+    padding: 4rem 0;
+}
+.tradition .tradition-item p{
+    margin-bottom: 0;
+}
+.price span
+{
+    font-size: 1.6rem;
+}
+.keep{
+    padding: 4rem 0;
+}
+.keep h2{
+    font-size: 3rem;
+}
+.keep p
+{
+    padding: 1rem 0;
+}
+/*  */
+.discover{
+    background: url(../images/bg-section-2.png) center no-repeat;
+    height: 1730px; 
+    background-size: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.discover-block{
+    position: relative;
+    background:  #212121 !important;
+    padding: 0 0 3rem;
+    position: absolute;
+    top: 15rem;
+}
+.discover-block:before{
+    content: '';
+    position: absolute;
+    background:   rgba(175, 198, 123, 0.2);
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}
+.discover-block:after{
+    content: '';
+    position: absolute;
+    background:url('../images/bg-body.png');
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.05;
+    background-position-y: -55rem;
+}
+.discover-block>.row{
+    position: relative;
+    z-index: 10;
+}
+.discover-block .col-md-12 h2{
+    color: #fff;
+    font-size: 4rem;
+    margin: 0;
+    line-height: 4rem;
+}
+.discover-block .col-md-12 p{
+    color: #fff;
+    font-size: 3rem;
+    margin: 0;
+    line-height: 3rem;
+}
+.col-md-12{
+    box-sizing: border-box;
+    padding: 2.5rem 0;
+}
+.discover-block .col-md-6{
+    padding-left: 10rem;
+}
+.discover-block .icon-box-item{
+    padding: 1rem 0;
+}
+.discover-block .icon-box-item .icon-img{
+    margin: 0 20px 0 0;
+}
+.discover-block .icon-box-item h3{
+    color: #fff;
+}
+.discover-block .icon-box-item span.good-dog{
+    font-size: 18px;
+    line-height: 20px;
+}
+/*  */
+.book-here h2{
+    font-size: 5rem;
+    color: #fff;
+    line-height: 5rem;
+    margin: 0;
+}
+/* Form */
+.book-here {
+    padding:  0 0 5rem;
+    overflow: hidden;
+}
+.book-here  .form-group{
+    padding: 0 0 2rem;
+}
+.form-group label{
+    color: #fff;
+    font-family:'Montserrat-Bold' ;
+}
+.book-here .col-md-4{
+    padding: 0 9rem;
+}
+.form-group input,
+.form-group select
+{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    color: #fff !important;
+}
+.form-group select{
+    background: url(../images/icon-triagle.png) 95% no-repeat #212121 !important;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    -webkit-appearance: none;
+    position: relative;
+}
+.form-group input::placeholder{
+    color: #fff;
+}
+.form-group input:focus,
+.form-group select:focus{
+    background: transparent;
+}
+.form-group input[type="date"]{
+    -webkit-appearance: none;
+    position: relative;
+    background: url(../images/calendar.png) 95% no-repeat #212121 !important;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+.book-here  button.btn.white{
+    font-family: 'Montserrat-Bold';
+    color: #fff !important;
+    border-color: #fff !important;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 8px;
+    line-height: 15px;
+    padding: 10px 0;
+}
+.book-here  button.btn.white:hover{
+    background: #fff;
+    color: #212121 !important;
+}
+/*  */
+.post-block h2{
+    font-size: 5rem;
+    margin: 0;
+    line-height: 5rem;
+}
+.post-block .col-md-12{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.post-block .card{
+    width: 100% !important;
+    border: 0;
+}
+.post-block .card .mete{
+    color: #555555;
+    font-family: 'Montserrat-Bold';
+}
+.post-block .card h5{
+    color: #555555;
+    font-family: 'Montserrat-Bold';
+}
+.post-block .card .card-text{
+    color: #555555;
+}
+.post-block 
+{
+    padding: 0px 0 7rem;
+}
+.readmore{
+  background: none !important;
+  color: #555555 !important;
+  border: none !important;
+  border-bottom: 5px solid #afc67b !important;
+  font-family: 'Montserrat-Bold';
+  border-radius: 0;
+  text-transform: uppercase;
+}
+/*  */
+.icon-block{
+    box-sizing: border-box;
+    padding: 5rem 0;
+}
+.icon-block p,
+.icon-block strong
+{
+    color: #aac078;
+}
+.icon-block strong{
+    font-size: 2rem;
+}
+.icon-block .social-icons a{
+    border-radius: 50%;
+    background: #fff;
+    color: #212121;
+    font-size: 2rem;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin: 2rem 0.5rem 0;
+}
+.footer {
+    padding: 5rem 0;
+}
+.footer h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Montserrat-Bold';
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.footer  ul{
+    padding: 0;
+}
+.footer  ul li{
+    list-style: none;
+    margin: 0 0 5px 0;
+
+}
+.footer  ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+    .navbar.navbar-expand-lg {
+        background: transparent;
+        position: inherit
+        width: 100%;
+        padding: 0;
+        z-index: 10;
+    }
+    .navbar-toggler {
+        color: #aac078 !important;
+        border-color: #aac078 !important;
+    }
+  }
